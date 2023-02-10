@@ -1,9 +1,14 @@
 import React from 'react'
 import img from '../../image.png'
 import { Link } from 'react-scroll'
+import { useNavigate } from 'react-router-dom'
 import './index.css'
 
 function Header(){
+    const navigate = useNavigate()
+    const handleClick = () => {
+        navigate('/rules');
+    }
     return(
         <header className='header'>
             <div className='container'>
@@ -30,7 +35,7 @@ function Header(){
                                 <Link to="reviews" spy={true} smooth={true} offset={50} duration={500}>Отзывы</Link>
                             </li>
                             <li>
-                                <Link to="rules" spy={true} smooth={true} offset={50} duration={500}>Правила</Link>
+                                <Link to="rules" spy={true} smooth={true} offset={50} duration={500} onClick={handleClick}>Правила</Link>
                             </li>
                             <li>
                                 <Link to="contacts" spy={true} smooth={true} offset={50} duration={500}>Контакты</Link>
