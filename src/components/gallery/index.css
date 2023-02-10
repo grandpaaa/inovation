@@ -1,0 +1,42 @@
+.gallery{
+    height: 620px;
+}
+
+.gal{
+    display: block;
+    align-items: center;
+    position: relative;
+    margin-top: 130px;
+}
+
+.gal_img{
+    position: relative;
+    /* height: 270px; */
+    display: flex;
+    cursor: pointer;
+    transition: .7s;
+    top: 0;
+    filter: drop-shadow(0.05em 0.15em 0.1em);
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.gal_img img{
+    width: 480px;
+}
+
+.gallery_name{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.gallery_name img{
+    height: 4px;
+    margin-right: 40px;
+}
+
+.gallery_name h1{
+    font-size: 50px;
+}

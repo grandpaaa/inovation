@@ -1,0 +1,131 @@
+.mainpage{
+    background-image: url('../../bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1080px;
+    width: 100%;
+    padding: 64px 120px;
+    overflow: hidden;
+}
+
+.main_image{
+    height: 1080px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 47%;
+    color: transparent;
+    max-width: 1737px;
+    z-index: 1;
+}
+
+.top{
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14%;
+    color: #fff;
+    width: 971px;
+}
+
+.top p{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.top h1{
+    font-size: 56px;
+    margin-bottom: 16px;
+}
+
+.top a{
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    color: #000;
+    padding: 25px 0;
+    font-size: 24px;
+    font-weight: bold;
+    width: 328px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    z-index: 20;
+    transition: .3s;
+}
+
+.top a:hover{
+    background-color: #DBDBDB;
+}
+
+.navblock{
+    position: absolute;
+    right: 0;
+    top: 40%;
+}
+
+.navbar{
+    width: 120px;
+    height: 120px;
+    background-color: #081120;
+    opacity: 90%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.navbar:hover{
+    opacity: 95%;
+}
+
+.bottom{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    top: 70%;
+    z-index: 2;
+    background-color: #081120;
+    opacity: 90%;
+    padding: 48px;
+}
+
+.bottom_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.maindesc{
+    display: flex;
+    color: #fff;
+    align-items: top;
+    width: 25%; 
+}
+/* 
+.maindesc:not(:first-child):not(:last-child){
+    margin-left: 32px;
+} */
+
+.people{
+    width: 80px;
+    height: 80px;
+}
+
+.sun, .clock, .club{
+    width: 60px;
+    height: 60px;
+}
+
+.maintext h5{
+    font-size: 35px;
+    font-weight: 450;
+    margin-bottom: 12px;
+    width: 270px;
+}
+
+.maintext p{
+}
+
+.desc_img{
+    margin-right: 24px;
+}

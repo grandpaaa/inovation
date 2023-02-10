@@ -1,0 +1,52 @@
+.services{
+    background-image: url('../../images/serv.png');
+    background-position: 100% 100%;
+    background-size: 960px 1080px;
+    background-repeat: no-repeat;
+    padding: 136px 119px;
+}
+
+.serv_container{
+    width: 711px;
+    height: 934px;
+    text-align: right;
+}
+
+.s_main{
+    margin-bottom: 150px;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.s_main h1{
+    font-size: 50px;
+}
+
+.s_main img{
+    height: 4px;
+    margin-right: 40px;
+}
+
+.servs_name{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    color: #353535;
+    margin-bottom: 40px;
+    font-size: 28px;
+    align-items: center;
+}
+
+.book{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.book a{
+    padding: 25px 56px;
+    background-color: #263663;
+    color: #fff;
+    border-radius: 5px;
+}

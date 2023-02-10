@@ -1,0 +1,23 @@
+.rules_main{
+    background-image: url('../../images/bg_r.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1080px;
+    width: 100%;
+    padding: 64px 120px;
+    overflow: hidden;
+}
+
+  
+.effect {
+    background-color: white;
+    color: black;
+    font-size: 100px; 
+    font-weight: bold;
+    width: 1000px;
+    margin: 230px auto;
+    text-align: center;
+    mix-blend-mode: screen;
+    padding: 50px;
+}
