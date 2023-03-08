@@ -62,13 +62,6 @@ function MoreServs(){
     ]
 
     const more_name = more.map((item, i) =>
-        // <div className='more_item'>
-        //     <img src={item.img}/>
-        //     <div className='more_title'>
-        //         {item.title}
-        //         <p>{item.desc}</p>    
-        //     </div>
-        // </div>
         <div className='card'>
             <div className='poster'>
                 <img src={item.img}/>

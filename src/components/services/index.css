@@ -1,13 +1,13 @@
 .services{
     background-image: url('../../images/serv.png');
     background-position: 100% 100%;
-    background-size: 960px 1080px;
+    background-size: 50% 1080px;
     background-repeat: no-repeat;
     padding: 136px 119px;
 }
 
 .serv_container{
-    width: 711px;
+    width: 40%;
     height: 934px;
     text-align: right;
 }

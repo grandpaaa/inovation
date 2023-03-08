@@ -27,7 +27,6 @@ function MainPage(){
                 <div className='navbar'><img src={whats}></img></div>
             </div>
             <div className='bottom'>
-                <div className='bottom_container'>
                     <div className='maindesc'>
                         <div className='desc_img' style={{width: '80px', height: '80px'}}>
                             <img src={people} className='people'></img>
@@ -64,11 +63,10 @@ function MainPage(){
                             <p>Мы провели в наших шале</p>
                         </div>
                     </div>
-                </div>
             </div>
-            <div className='main_image'>
+            {/* <div className='main_image'>
                 <img src={img}/>
-            </div>
+            </div> */}
         </div>
     )
 }
